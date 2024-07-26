@@ -1,0 +1,25 @@
+.bg-button{
+    color: rgb(255, 255, 255);
+    background-color: #F65D5D;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.bg-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 34, 34);
+    font-size: 20px;
+    
+}
+.bg-input{
+    color: black;
+    border: black 2px solid;
+    font-size: 20px;
+    background-color: white;
+}
+.bg-input:hover{
+    color: black;
+    box-shadow: rgba(249, 3, 3, 0.766) 0px 5px 15px;
+    font-size: 20px;
+    background-color: white;
+}

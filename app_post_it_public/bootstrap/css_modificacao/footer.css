@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 120px;
+}
+.icone-footer{
+    color: #F65D5D;
+    padding: 0px;
+}
+
+.copy{
+    color: black;
+    border-bottom: #F65D5D solid 2px;
+}
+
+.borda-top{
+    border-top: #F65D5D solid 2px;
+}

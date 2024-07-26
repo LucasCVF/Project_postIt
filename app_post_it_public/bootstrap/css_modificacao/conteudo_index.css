@@ -1,0 +1,61 @@
+.bg-conteudo{
+    padding: 5px;
+    font-size: 20px;
+    background-color:#fa86ac;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+    transition: padding 0.2s ease;
+}
+.bg-conteudo:hover{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: padding 0.2s ease;
+}
+.bg-conteudo1{
+    padding: 5px;
+    font-size: 20px;
+    background-color:#a6a3f4;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+    transition: padding 0.2s ease;
+}
+.bg-conteudo1:hover{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: padding 0.2s ease;
+}
+.bg-conteudo3{
+    padding: 5px;
+    font-size: 20px;
+    background-color:#fa86ac;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+}
+
+.bg-conteudo4{
+    padding: 5px;
+    font-size: 20px;
+    background-color:#a6a3f4;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+}
+#index .bg-button{
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+
+}
+#index .bg-button:hover{
+    background-color: #000000;
+    color: white;
+}
