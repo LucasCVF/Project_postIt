@@ -51,7 +51,7 @@ function buscarNomeUsuario() {
         <!-- Inclua a biblioteca jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
-    <body style="font-family: 'Times New Roman', Times, serif; background-color: #ebebeb;">
+    <body style="font-family: 'Times New Roman', Times, serif; background-color: #FAFAFA;">
 <!-- INICIO DA NAVEGACAO -->
         <nav class="navbar navbar-expand-md bg-vermelho">
             <div class="container">

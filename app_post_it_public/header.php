@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="bootstrap/css_modificacao/footer.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/form_login.css">
     </head>
-    <body style="font-family: 'Times New Roman', Times, serif; background-color: #ebebeb;">
+    <body style="font-family: 'Times New Roman', Times, serif; background-color: #FAFAFA;">
 <!-- INICIO DA NAVEGACAO -->
         <nav class="navbar navbar-expand-md bg-vermelho">
             <div class="container">

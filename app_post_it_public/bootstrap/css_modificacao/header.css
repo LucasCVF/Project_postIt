@@ -25,17 +25,14 @@
         border-radius: 10%;
         color: white;
         transition: background-color 0.5s ease;
-        transition: font-size 0.4s ease;
 }
 .bg-a:hover{
-        font-size: 130%;
         font-weight: bold;
         background-color: rgb(175, 34, 34);
         color: white;    
 }
 .active{
-        background-color: rgb(175, 34, 34); /* Cor desejada quando ativo ou focado */
-        font-size: 150%;   
+        background-color: rgb(175, 34, 34); /* Cor desejada quando ativo ou focado */  
         color: white;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
