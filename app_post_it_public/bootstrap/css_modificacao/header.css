@@ -2,13 +2,6 @@
         background-color:#F65D5D;
         padding: 0;
 }
-.navbar-brand-mod{
-        position: relative;
-        font-size: var(--bs-navbar-brand-font-size);
-        color: var(--bs-navbar-brand-color);
-        text-decoration: none;
-        white-space: nowrap;
-}
 .logo-text{
         position: absolute;
         color: white;
@@ -18,16 +11,15 @@
         width: 80%;
 }
 
-.bg-a{
-        font-size: 110%;
-        font-weight: bold;
-        border: solid rgb(175, 34, 34) 1px;
-        border-radius: 10%;
+.menu-nav{
+        border-bottom: solid black 3px;
+}
+.bg-button-nav{
+        font-size:18px;
         color: white;
         transition: background-color 0.5s ease;
 }
-.bg-a:hover{
-        font-weight: bold;
+.bg-button-nav:hover{
         background-color: rgb(175, 34, 34);
         color: white;    
 }

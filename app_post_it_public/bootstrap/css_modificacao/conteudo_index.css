@@ -1,61 +1,41 @@
-.bg-conteudo{
-    padding: 5px;
-    font-size: 20px;
-    background-color:#fa86ac;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease;
-    transition: padding 0.2s ease;
-}
-.bg-conteudo:hover{
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 20px;
-    color: white;
-    transition: background-color 0.5s ease;
-    transition: padding 0.2s ease;
-}
-.bg-conteudo1{
-    padding: 5px;
-    font-size: 20px;
-    background-color:#a6a3f4;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease;
-    transition: padding 0.2s ease;
-}
-.bg-conteudo1:hover{
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 20px;
-    color: white;
-    transition: background-color 0.5s ease;
-    transition: padding 0.2s ease;
-}
-.bg-conteudo3{
-    padding: 5px;
-    font-size: 20px;
-    background-color:#fa86ac;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease;
+.bg-conteudo {
+    border: black 3px solid;
+    transition: all 0.3s ease; /* Adiciona uma transição suave para a mudança de estilo */
 }
 
-.bg-conteudo4{
-    padding: 5px;
-    font-size: 20px;
-    background-color:#a6a3f4;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease;
+.bg-card{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-#index .bg-button{
-    font-size: 20px;
-    color: black;
-    background-color: #ffffff;
 
+.bg-card2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#index .bg-button:hover{
-    background-color: #000000;
+
+.bg-conteudo:hover {
+    border: #F65D5D 3px solid;
+}
+
+.bg-conteudo:hover .btn_index {
+    background-color: #F65D5D;
     color: white;
+}
+
+.btn_index {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para o hover do botão */
+}
+
+.edit-titulo{
+    border-bottom: solid 3px #f65d5d;
+}
+
+.edit-slide{
+    color: white;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
 }

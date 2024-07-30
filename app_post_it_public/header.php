@@ -29,23 +29,19 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Itens da navegação -->
-                    <div class="col-md-4 collapse navbar-collapse justify-content-star" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item px-2">
-                                <a class="nav-link bg-a px-4" href="cadastro.php">Cadastre-se</a>
+                    <div class="col-md-8 collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav menu-nav">
+                            <li class="nav-item px-1">
+                                <a class="nav-link bg-button-nav" href="cadastro.php">Cadastre-se</a>
                             </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link bg-a px-4" href="login.php">Login</a>
+                            <li class="nav-item px-1">
+                                <a class="nav-link bg-button-nav" href="login.php">Login</a>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item px-2">
-                                <a class="nav-link bg-a px-4" href="contatos.php">Meio de contato</a>
+                            <li class="nav-item px-1">
+                                <a class="nav-link bg-button-nav" href="contatos.php">Meio de contato</a>
                             </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link  bg-a px-4" href="#">Novidades</a>
+                            <li class="nav-item px-1">
+                                <a class="nav-link bg-button-nav" href="#">Novidades</a>
                             </li>
                         </ul>
                     </div>
