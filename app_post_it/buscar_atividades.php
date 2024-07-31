@@ -64,14 +64,14 @@ try {
     // Verifica se foram encontradas atividades
     if ($atividades) {
         // Construa o HTML com as atividades encontradas
-        $html = "<table class='table fs-5'>";
+        $html = "<table class='table text-center'>";
         $html .= "<thead><tr><th>N°</th><th>Titulo da atividade</th><th>Data do cadastro</th><th>Status</th><th>Ações</th></tr></thead>";
         $html .= "<tbody class='table-group-divider'>";
         foreach ($atividades as $indice => $atividade) {
             $html .= "<tr><th scope='row'>" . ($indice + 1) . "</th>";
-            $html .= "<td class='fs-5'>{$atividade['titulo']}</td>";
-            $html .= "<td class='fs-5'>" . date('d/m/Y', strtotime($atividade['data_cadastro'])) . "</td>";
-            $html .= "<td class='fs-5'>{$atividade['status_atv']}</td>"; // Exibe o status da atividade
+            $html .= "<td>{$atividade['titulo']}</td>";
+            $html .= "<td>" . date('d/m/Y', strtotime($atividade['data_cadastro'])) . "</td>";
+            $html .= "<td>{$atividade['status_atv']}</td>"; // Exibe o status da atividade
             $html .= "<td>
             <a href='edit_atv.php?id_atv={$atividade['id_atv']}'><button class='btn btn-info'><i class='fa-solid fa-pen-to-square' style='color: black;'></i></button></a> 
             <a href='excluir_atv.php?id_atv={$atividade['id_atv']}'><button class='btn btn-danger'><i class='fa-solid fa-trash' style='color: white;'></i></button></a> 

@@ -5,25 +5,27 @@
 <!-- INICIO CONTEUDO -->
 <section>
     <div class="container">
-        <div class="col-md-12">
-            <form id="form-busca" class="m-5 p-4">
-                <div class="row">
-                    <h2 class="text-center pb-3">Consultar atividades cadastradas</h2>
-                    <div class="col-md-8">
-                        <label for="inputTitulo">Nome da atividade:</label>
-                        <input type="text" class="form-control bg-input" id="inputTitulo" placeholder="Titulo da sua atividade">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <form id="form-busca" class="m-5 p-4">
+                    <div class="row">
+                        <h5 class="text-center pb-3">Consultar atividades cadastradas</h5>
+                        <div class="col-md-8">
+                            <label for="inputTitulo">Nome da atividade:</label>
+                            <input type="text" class="form-control bg-input" id="inputTitulo" placeholder="Titulo da sua atividade">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputData">Data de cadastro:</label>
+                            <input type="date" class="form-control bg-input" id="inputData">
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <label for="inputData">Data de cadastro:</label>
-                        <input type="date" class="form-control bg-input" id="inputData">
-                    </div>
-                </div>
-                <button type="submit" class="btn bg-button w-100 mt-3">Buscar atividades</button>
-            </form>
+                    <button type="submit" class="btn bg-button w-100 mt-3">Buscar atividades</button>
+                </form>
 
-            <!-- TABELA DE EXIBICAO -->
-            <div id="resultadoBusca" class="m-5">
-                <!-- Aqui será exibido o resultado da busca -->
+                <!-- TABELA DE EXIBICAO -->
+                <div id="resultadoBusca" class="m-5">
+                    <!-- Aqui será exibido o resultado da busca -->
+                </div>
             </div>
         </div>
     </div>
