@@ -47,7 +47,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card bg-conteudo">
-                            <a href="login.php" class="btn btn-primary btn_index">Login</a>
+                            <a href="login.php" class="btn btn_index">Login</a>
                             <div class="card-body">
                                 <h5 class="card-title">Acesse suas pricipais atividades do seu dia!</h5>
                                 <p class="card-text">Transforme sua rotina diária com nosso planejador pessoal. No Organize-se, ajudamos você a organizar suas tarefas diárias de maneira simples e eficiente. </p>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card bg-conteudo">
-                            <a href="cadastro.php" class="btn btn-primary btn_index">Cadastro</a>
+                            <a href="cadastro.php" class="btn btn_index">Cadastro</a>
                             <div class="card-body">
                                 <h5 class="card-title ">Planeje sua rotina diaria de uma forma mais clara!</h5>
                                 <p class="card-text">Cadastre suas atividades, defina prioridades e acompanhe seu progresso ao longo do dia. Comece a planejar seu sucesso agora mesmo!</p>

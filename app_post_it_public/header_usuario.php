@@ -67,13 +67,13 @@ function buscarNomeUsuario() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Itens da navegação -->
-                    <div class="col-md-4 collapse navbar-collapse justify-content-star" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="col-md-4 collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav menu-nav-usu">
                             <li class="nav-item px-1">
-                                <a class="nav-link bg-a px-4" href="nova_atv_usuario.php">Nova atividade</a>
+                                <a class="nav-link bg-button-nav-usu" href="nova_atv_usuario.php">Nova atividade</a>
                             </li>
                             <li class="nav-item px-1">
-                                <a class="nav-link bg-a px-4" href="consultar_atv_usuario.php">Consultar atividade</a>
+                                <a class="nav-link bg-button-nav-usu" href="consultar_atv_usuario.php">Consultar atividade</a>
                             </li>
                         </ul>
                     </div>

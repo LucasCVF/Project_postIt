@@ -20,18 +20,11 @@
     color: white;
 }
 
-.btn_index {
-    width: 100%;
-    background-color: black;
-    color: white;
-    border: 0;
-    border-radius: 0;
-    font-size: 18px;
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave para o hover do botão */
-}
-
 .edit-titulo{
-    border-bottom: solid 3px #f65d5d;
+    border-bottom: 5px double transparent;
+    padding: 5px;
+    border-image: linear-gradient(to right, #F65D5D, #560404) 1;
+    text-align: center; 
 }
 
 .edit-slide{
@@ -39,3 +32,38 @@
     font-size: 18px;
     background: rgba(0, 0, 0, 0.5);
 }
+
+.btn_index {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn_index::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #f65d5d;
+    animation: loading 2.5s;
+}
+@keyframes loading {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+

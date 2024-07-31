@@ -5,18 +5,19 @@
 ?>
 <!-- INICIO DO FORMULARIO -->
         <div class="container">
-                <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
                     <div id="login" class="m-5">
-                        <h2>Login</h2>
+                        <h5 class="titulo-cadastro">Fazer login</h5>
                         <form class="login-form" action="controle_login.php" method="post">
                             <div class="m-3">
-                                <input type="email" class="bg-input w-100 p-2" name="email" value="<?php echo isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email'])  : ''; unset($_SESSION['email'])?>" placeholder="Endereço de Email">
+                                <input type="email" class="bg-input w-75 p-2" name="email" value="<?php echo isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email'])  : ''; unset($_SESSION['email'])?>" placeholder="Endereço de Email">
                             </div>
                             <div class="m-3">
-                                <input type="password" class="bg-input w-100 p-2" name="senha" placeholder="Digite sua Senha">
+                                <input type="password" class="bg-input w-75 p-2" name="senha" placeholder="Digite sua Senha">
                             </div>
                             <div class="m-3">
-                                <button type="submit" class="btn bg-button w-100 p-2"> LOGIN </button>
+                                <button type="submit" class="btn bg-button w-75 p-2"> LOGIN </button>
                             </div> 
                             <?php
                                 // Verifica se existe algum erro na sessão
@@ -33,6 +34,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
 <!-- FIM DO FORMULARIO -->
         <?php

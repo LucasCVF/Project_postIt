@@ -13,13 +13,26 @@
 }
 .bg-input{
     color: black;
-    border: black 2px solid;
-    font-size: 20px;
+    border: black 1px solid;
+    font-size: 18px;
     background-color: white;
 }
 .bg-input:hover{
     color: black;
-    box-shadow: rgba(249, 3, 3, 0.766) 0px 5px 15px;
-    font-size: 20px;
+    box-shadow: rgba(249, 3, 3, 0.766) 0px 4px 4px;
+    font-size: 18px;
     background-color: white;
+}
+
+.bg-input:focus {
+    outline: none;
+    box-shadow: rgba(249, 3, 3, 0.766) 0px 4px 4px;
+    border-color: initial;
+}
+.titulo-cadastro{
+    border-bottom: 4px double transparent;
+    padding: 10px;
+    border-image: linear-gradient(to right, #F65D5D, #560404) 1;
+    text-align: center;
+    color: #000000; 
 }
