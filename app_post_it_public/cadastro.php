@@ -28,45 +28,44 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="">
-                                <div class="row mt-3 justify-content-center">
-                                    <h5 class="text-center titulo-cadastro m-3">Informações de Acesso</h5>
-                                    <div class="col-md-6">
-                                        <label for="email">Email*</label>
-                                        <input type="email" class="form-control bg-input" id="email" name="email" value="<?php echo isset($_SESSION['dados']['email']) ? htmlspecialchars($_SESSION['dados']['email'])  : ''; ?>" placeholder="Email">
-                                    </div>
+                            <div class="row mt-3 justify-content-center">
+                                <h5 class="text-center titulo-cadastro m-3">Informações de Acesso</h5>
+                                <div class="col-md-6">
+                                    <label for="email">Email*</label>
+                                    <input type="email" class="form-control bg-input" id="email" name="email" value="<?php echo isset($_SESSION['dados']['email']) ? htmlspecialchars($_SESSION['dados']['email'])  : ''; ?>" placeholder="Email">
                                 </div>
-                                <div class="row mt-3 justify-content-center">
-                                    <div class="col-md-6">
-                                        <label for="senha">Password*</label>
-                                        <input type="password" class="form-control bg-input" id="senha" name="senha" value="<?php echo isset($_SESSION['dados']['senha']) ? htmlspecialchars($_SESSION['dados']['senha'])  : ''; ?>" placeholder="Password">
-                                    </div>
+                            </div>
+                            <div class="row mt-3 justify-content-center">
+                                <div class="col-md-6">
+                                    <label for="senha">Password*</label>
+                                    <input type="password" class="form-control bg-input" id="senha" name="senha" value="<?php echo isset($_SESSION['dados']['senha']) ? htmlspecialchars($_SESSION['dados']['senha'])  : ''; ?>" placeholder="Password">
                                 </div>
                             </div>
                             <button type="submit" class="btn bg-button w-100 mt-3">CADASTRAR</button>
 
                             <?php
-                            //retira os dados no input quando é feito o submit ou reload
-                            unset($_SESSION['dados'])?>
+                                //retira os dados no input quando é feito o submit ou reload
+                                unset($_SESSION['dados'])
+                            ?>
                             <?php
-                            // Verifica se existe algum erro na sessão
-                            if (isset($_SESSION['erro']) && !empty($_SESSION['erro'])) {
-                                echo "<h3 class='text-danger mt-3'>Erro de Cadastro</h3>";
-                                echo "<ul class='text-danger'>";
-                                foreach ($_SESSION['erro'] as $mensagem) {
-                                    echo "<li>$mensagem</li>";
-                                }
-                                echo "</ul>";
-                                // Limpa os erros da sessão
-                                session_destroy();
-                            } else if (isset($_SESSION['concluido']) && !empty($_SESSION['concluido'])) {
-                                    echo "<div class='text-center'>";
-                                    echo "<h3 class='text-success mt-3'> Cadastro concluido com sucesso!</h3>";
-                                    echo "<a href='login.php'><button type='button' class='btn btn-success'> Acesse sua conta </button></a>";
-                                    echo "</div>";
+                                // Verifica se existe algum erro na sessão
+                                if (isset($_SESSION['erro']) && !empty($_SESSION['erro'])) {
+                                    echo "<h3 class='text-danger mt-3'>Erro de Cadastro</h3>";
+                                    echo "<ul class='text-danger'>";
+                                    foreach ($_SESSION['erro'] as $mensagem) {
+                                        echo "<li>$mensagem</li>";
+                                    }
+                                    echo "</ul>";
                                     // Limpa os erros da sessão
-                                    unset($_SESSION['concluido']);
-                            } 
+                                    session_destroy();
+                                } else if (isset($_SESSION['concluido']) && !empty($_SESSION['concluido'])) {
+                                        echo "<div class='text-center'>";
+                                        echo "<h3 class='text-success mt-3'> Cadastro concluido com sucesso!</h3>";
+                                        echo "<a href='login.php'><button type='button' class='btn btn-success'> Acesse sua conta </button></a>";
+                                        echo "</div>";
+                                        // Limpa os erros da sessão
+                                        unset($_SESSION['concluido']);
+                                } 
                             ?>
                         </form>
                     </div>
