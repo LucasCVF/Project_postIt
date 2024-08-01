@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="bootstrap/css_modificacao/form_cadastro.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/form_contato.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/forms.css">
+        <link rel="stylesheet" href="bootstrap/css_modificacao/novidades.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/footer.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/form_login.css">
-        <link rel="stylesheet" href="bootstrap/css_modificacao/novidades.css">
     </head>
     <body style="font-family: 'Times New Roman', Times, serif; background-color: #FAFAFA;">
 <!-- INICIO DA NAVEGACAO -->

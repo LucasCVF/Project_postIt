@@ -1,0 +1,17 @@
+
+.nov-btn{
+    color: white !important;
+    background-color: black !important
+}
+.nov-btn:hover{
+    color: white !important;
+    background-color: #F65D5D !important
+}
+
+.borda-nov{
+    border-bottom: 4px double transparent;
+    padding: 10px;
+    border-image: linear-gradient(to right, #F65D5D, #560404) 1;
+    text-align: center;
+    color: #000000; 
+}
