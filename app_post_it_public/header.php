@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="bootstrap/css_modificacao/forms.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/footer.css">
         <link rel="stylesheet" href="bootstrap/css_modificacao/form_login.css">
+        <link rel="stylesheet" href="bootstrap/css_modificacao/novidades.css">
     </head>
     <body style="font-family: 'Times New Roman', Times, serif; background-color: #FAFAFA;">
 <!-- INICIO DA NAVEGACAO -->
@@ -41,7 +42,7 @@
                                 <a class="nav-link bg-button-nav" href="contatos.php">Meio de contato</a>
                             </li>
                             <li class="nav-item px-1">
-                                <a class="nav-link bg-button-nav" href="#">Novidades</a>
+                                <a class="nav-link bg-button-nav" href="novidades.php">Novidades</a>
                             </li>
                         </ul>
                     </div>
