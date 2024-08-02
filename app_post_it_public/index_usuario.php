@@ -61,46 +61,45 @@ try {
 <section>
     <div class="container">
         <div class="m-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card">
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="card card-edit">
                         <div class="card-body text-center">
-                            <h3 class="card-title titulo-edit">Crie suas atividades</h3>
+                            <h4 class="card-title titulo-edit border-usuario">Crie suas atividades</h4>
                             <img class="img-edit" src="img/atividade.png" alt="atividade">
-                            <p class="card-text"> <h5>Crie e planeje suas atividades diarias por aqui.</h5></p>
-                            <a href="nova_atv_usuario.php" class="btn bg-button d-flex text-center justify-content-center">Nova atividade</a>
+                            <h5 class="card-text">Crie e planeje suas atividades diárias por aqui.</h5>
+                            <a href="nova_atv_usuario.php" class="btn bg-button-usu d-flex text-center justify-content-center">Nova atividade</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card">
+                <div class="col-md-5 mb-4">
+                    <div class="card card-edit">
                         <div class="card-body text-center">
-                            <h3 class="card-title titulo-edit">Consulte suas atividades</h3>
+                            <h4 class="card-title titulo-edit border-usuario">Consulte suas atividades</h4>
                             <img class="img-edit" src="img/consulta_atv.png" alt="atividade">
-                            <p class="card-text"><h5>Consulte suas atividades diarias e personalize.</h5></p>
-                            <a href="consultar_atv_usuario.php" class="btn bg-button d-flex text-center justify-content-center">Consultar atividade</a>
+                            <h5 class="card-text">Consulte suas atividades diárias e personalize.</h5>
+                            <a href="consultar_atv_usuario.php" class="btn bg-button-usu d-flex text-center justify-content-center">Consultar atividade</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-12">
+        
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-10">
                     <div class="card card-edit">
                         <div class="card-body text-center">
-                            <h3 class="card-title titulo-edit p-3">Atividades adicionadas recentemente</h3>
+                            <h4 class="card-title titulo-edit p-3 border-usuario">Atividades adicionadas recentemente</h4>
                             <?php foreach ($atividades_recentes as $atividade) : ?>
-                                <h5 class="card-title">Titulo - <strong><?php echo $atividade['titulo']; ?></strong></h5>
-                                <p class="card-text"><?php echo strlen($atividade['descricao']) > 50 ? substr($atividade['descricao'], 0, 50) . '...' : $atividade['descricao']; ?></p>
+                                <p class="card-text"><strong><?php echo $atividade['titulo']; ?></strong> - <?php echo strlen($atividade['descricao']) > 50 ? substr($atividade['descricao'], 0, 50) . '...' : $atividade['descricao']; ?></p>
                                 <hr>
                             <?php endforeach; ?>
                         </div>
                     </div>
                     <div class="card card-edit mt-2">
                         <div class="card-body text-center">
-                            <h3 class="card-title titulo-edit p-3">Atividades em execução</h3>
+                            <h4 class="card-title titulo-edit p-3 border-usuario">Atividades em execução</h4>
                             <?php foreach ($atividades_execucao as $atividade) : ?>
-                                <h5 class="card-title">Titulo - <strong><?php echo $atividade['titulo']; ?></strong></h5>
-                                <p class="card-text"><?php echo strlen($atividade['descricao']) > 50 ? substr($atividade['descricao'], 0, 50) . '...' : $atividade['descricao']; ?></p>
+                                <p class="card-text"><strong><?php echo $atividade['titulo']; ?></strong> - <?php echo strlen($atividade['descricao']) > 50 ? substr($atividade['descricao'], 0, 50) . '...' : $atividade['descricao']; ?></p>
                                 <hr>
                             <?php endforeach; ?>
                         </div>

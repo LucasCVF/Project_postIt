@@ -1,13 +1,13 @@
 .bg-button{
     color: rgb(255, 255, 255);
-    background-color: #F65D5D;
+    background-color: black;
     font-size: 20px;
     font-weight: bold;
 
 }
 .bg-button:hover{
     color: rgb(255, 255, 255);
-    background-color: rgb(175, 34, 34);
+    background-color: #F65D5D;
     font-size: 20px;
     
 }
