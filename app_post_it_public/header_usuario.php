@@ -86,6 +86,8 @@ function buscarNomeUsuario() {
                             
                             <!-- Itens do dropdown -->
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="index_usuario.php">Home</a>
+                                <a class="dropdown-item" href="perfil_usuario.php">Perfil</a>
                                 <a class="dropdown-item" href="logout.php">Sair</a>
                             </div>
                         </div>

@@ -1,0 +1,126 @@
+{
+    "AC": [
+        "Acrelândia", "Brasiléia", "Bujari", "Capixaba", "Cruzeiro do Sul", "Epitaciolândia",
+        "Feijó", "Jordão", "Mâncio Lima", "Manoel Urbano", "Marechal Thaumaturgo", "Plácido de Castro",
+        "Rio Branco", "Rodrigues Alves", "Senador Guiomard", "Senador José Porfírio", "Tarauacá", "Xapuri"
+    ],
+    "AL": [
+        "Maceió", "Arapiraca", "Palmeira dos Índios", "São Miguel dos Campos", "São Sebastião", "Penedo",
+        "Delmiro Gouveia", "Coruripe", "Teotônio Vilela", "Murici", "Campo Alegre", "Batalha", "Junqueiro",
+        "Major Izidoro", "Chã Preta", "Atalaia", "Girau do Ponciano", "Igaci"
+    ],
+    "AM": [
+        "Manaus", "Parintins", "Itacoatiara", "Manacapuru", "Tefé", "Coari", "Benjamin Constant",
+        "São Gabriel da Cachoeira", "Tabatinga", "Novo Airão", "Humaitá", "Maués", "Santos Dumont",
+        "Careiro", "Japurá", "Borba", "Iranduba", "Urucará", "Nhamundá"
+    ],
+    "BA": [
+        "Salvador", "Feira de Santana", "Vitória da Conquista", "Camaçari", "Juazeiro", "Ilhéus", "Itabuna",
+        "Lauro de Freitas", "Eunápolis", "Porto Seguro", "Barreiras", "Alagoinhas", "Paulo Afonso",
+        "Santo Antônio de Jesus", "Simões Filho", "Jequié", "Senhor do Bonfim", "Valença"
+    ],
+    "CE": [
+        "Fortaleza", "Caucaia", "Juazeiro do Norte", "Sobral", "Crato", "Maracanaú", "Iguatu", "Quixadá",
+        "Horizonte", "Itapipoca", "Itapagé", "Tauá", "Barbalha", "Boa Viagem", "Camocim", "Canindé", "Acaraú",
+        "Crateús", "Icó"
+    ],
+    "DF": [
+        "Brasília", "Águas Claras", "Taguatinga", "Ceilândia", "Samambaia", "Planaltina", "Gama", "Sobradinho",
+        "Recanto das Emas", "Guará", "Núcleo Bandeirante", "Cruzeiro", "Paranoá", "Riacho Fundo", "Varjão", "Jardim Botânico"
+    ],
+    "ES": [
+        "Vitória", "Vila Velha", "Serra", "Cariacica", "Linhares", "Colatina", "Guarapari", "São Mateus",
+        "São Gabriel da Palha", "Aracruz", "Iconha", "São Roque do Canaã", "Santa Teresa", "Domingos Martins",
+        "Castelo", "Alegre", "Mantenópolis", "Boa Esperança"
+    ],
+    "GO": [
+        "Goiânia", "Anápolis", "Rio Verde", "Catalão", "Jataí", "Luziânia", "Planaltina", "São Luís de Montes Belos",
+        "Formosa", "Paracatu", "Inhumas", "Águas Lindas de Goiás", "Ceres", "Valparaíso de Goiás", "Piranhas",
+        "Bela Vista de Goiás", "Itumbiara", "Goiatuba"
+    ],
+    "MA": [
+        "São Luís", "Imperatriz", "Caxias", "Timon", "Açailândia", "Balsas", "Codó", "Grajaú", "Paço do Lumiar",
+        "São José de Ribamar", "Viana", "Santa Inês", "Pedreiras", "Bacabal", "Barreirinhas", "Carutapera",
+        "Buriticupu", "Buritirana"
+    ],
+    "MG": [
+        "Belo Horizonte", "Uberlândia", "Contagem", "Juiz de Fora", "Betim", "Montes Claros", "Ipatinga", "Governador Valadares",
+        "Sete Lagoas", "Santa Luzia", "Varginha", "Divinópolis", "Teófilo Otoni", "Pará de Minas", "Poços de Caldas",
+        "Barbacena", "Manhuaçu", "Patos de Minas"
+    ],
+    "MS": [
+        "Campo Grande", "Dourados", "Três Lagoas", "Corumbá", "Ponta Porã", "Aquidauana", "Rio Verde de Mato Grosso",
+        "Chapadão do Sul", "Sidrolândia", "São Gabriel do Oeste", "Costa Rica", "Naviraí", "Jardim", "Bataguassu",
+        "Paranaíba", "Cassilândia", "Pedro Gomes", "Itaquiraí"
+    ],
+    "MT": [
+        "Cuiabá", "Várzea Grande", "Rondonópolis", "Sinop", "Tangará da Serra", "Lucas do Rio Verde", "Barra do Garças",
+        "Sorriso", "Jaciara", "Alta Floresta", "Primavera do Leste", "Confresa", "Pontes e Lacerda", "São Félix do Araguaia",
+        "Juruena", "Nobres", "Campo Novo do Parecis", "Aripuanã"
+    ],
+    "PA": [
+        "Belém", "Ananindeua", "Santarém", "Marabá", "Parauapebas", "Castanhal", "Barcarena", "Altamira", "Breves",
+        "Capanema", "Tailândia", "Paragominas", "Oriximiná", "Moju", "Ourém", "Redenção", "Concórdia do Pará", "São Domingos do Araguaia"
+    ],
+    "PB": [
+        "João Pessoa", "Campina Grande", "Santa Rita", "Patos", "Bayeux", "Sousa", "Cajazeiras", "Alagoa Grande",
+        "Monteiro", "Catolé do Rocha", "São Bento", "Solânea", "Areia", "Esperança", "Picuí", "Sapé", "Itabaiana", "Guarabira"
+    ],
+    "PE": [
+        "Recife", "Olinda", "Jaboatão dos Guararapes", "Caruaru", "Cabo de Santo Agostinho", "Igarassu", "Paulista",
+        "Santa Cruz do Capibaribe", "Petrolina", "Arcoverde", "Garanhuns", "São Lourenço da Mata", "Goiana",
+        "Serra Talhada", "Limoeiro", "Surubim", "Ouricuri", "Exu"
+    ],
+    "PI": [
+        "Teresina", "Parnaíba", "Picos", "Floriano", "José de Freitas", "Campo Maior", "São João do Piauí", "Buriti dos Lopes",
+        "Oeiras", "Piripiri", "Uruçuí", "Cocal", "Amarante", "São Raimundo Nonato", "Pedro II", "Coroatá", "Itaueira",
+        "Avelino Lopes"
+    ],
+    "PR": [
+        "Curitiba", "Londrina", "Maringá", "Ponta Grossa", "Foz do Iguaçu", "Cascavel", "São José dos Pinhais", "Campo Largo",
+        "Paranaguá", "Guarapuava", "Apucarana", "Umuarama", "Toledo", "Campo Mourão", "Telêmaco Borba", "Pato Branco",
+        "Irati", "Cianorte"
+    ],
+    "RJ": [
+        "Rio de Janeiro", "Niterói", "São Gonçalo", "Duque de Caxias", "Nova Iguaçu", "Volta Redonda", "Campos dos Goytacazes",
+        "Macaé", "Teresópolis", "Petrópolis", "Angra dos Reis", "Barra Mansa", "São João de Meriti", "Magé", "Queimados",
+        "Itaboraí", "Santa Maria Madalena", "Nova Friburgo"
+    ],
+    "RN": [
+        "Natal", "Mossoró", "Caicó", "Currais Novos", "Açu", "São Paulo do Potengi", "Santa Cruz", "Pau dos Ferros",
+        "Areia Branca", "Nova Cruz", "João Câmara", "Canguaretama", "Pedro Avelino", "São Miguel", "São José de Mipibu",
+        "Goianinha", "Santo Antônio", "Macau"
+    ],
+    "RO": [
+        "Porto Velho", "Ji-Paraná", "Ariquemes", "Cacoal", "Vilhena", "Rolim de Moura", "Jaru", "Buritis",
+        "São Francisco do Guaporé", "Costa Marques", "Nova Brasilândia D'Oeste", "Cujubim", "Mirante da Serra",
+        "Pimenta Bueno", "Ouro Preto do Oeste", "Espigão do Oeste", "Campo Novo de Rondônia", "Seringueiras"
+    ],
+    "RR": [
+        "Boa Vista", "Rorainópolis", "Caracaraí", "Mucajaí", "Normandia", "São João da Baliza", "São Luiz", "Iracema",
+        "Bonfim", "Cantá", "Uiramutã", "Amajarí", "Pacaraima", "Caroebe", "Rorainópolis", "Mucajaí", "São Luiz"
+    ],
+    "RS": [
+        "Porto Alegre", "Caxias do Sul", "Pelotas", "Santa Maria", "Novo Hamburgo", "Gravataí", "São Leopoldo", "Santa Cruz do Sul",
+        "Uruguaiana", "Santa Rosa", "Ijuí", "São Borja", "Bagé", "Erechim", "Sapucaia do Sul", "Viamão", "Canoas", "Tramandaí"
+    ],
+    "SC": [
+        "Florianópolis", "Joinville", "Blumenau", "Chapecó", "Criciúma", "São José", "Lages", "Itajaí", "Jaraguá do Sul",
+        "Concórdia", "São Bento do Sul", "Pomerode", "Rio do Sul", "Mafra", "Palhoça", "Caçador", "Araranguá", "Guaramirim"
+    ],
+    "SE": [
+        "Aracaju", "Lagarto", "Itabaiana", "Nossa Senhora do Socorro", "São Cristóvão", "Estância", "Propriá", "Tobias Barreto",
+        "Campo do Brito", "Neópolis", "Barra dos Coqueiros", "Nossa Senhora da Glória", "São Domingos", "Japaratuba", "Poço Redondo",
+        "Canindé de São Francisco", "Telha", "Arauá"
+    ],
+    "SP": [
+        "São Paulo", "Campinas", "São Bernardo do Campo", "São José dos Campos", "Santos", "Ribeirão Preto", "Sorocaba",
+        "Mauá", "Osasco", "Guarulhos", "Barueri", "Jundiaí", "Piracicaba", "Bauru", "São Vicente", "Indaiatuba", "Araraquara",
+        "São Carlos"
+    ],
+    "TO": [
+        "Palmas", "Araguaína", "Gurupi", "Paraíso do Tocantins", "Colinas do Tocantins", "Porto Nacional", "Augustinópolis",
+        "Dianópolis", "Lajeado", "Tocantinópolis", "Formoso do Araguaia", "Xambioá", "Natividade", "Bom Jesus do Tocantins",
+        "Pium", "Mateiros", "Campos Lindos"
+    ]
+}
