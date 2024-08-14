@@ -7,7 +7,7 @@ require_once "header_usuario.php";
                 <div class="col-md-10">
                     <div class="m-5">
                         <h5 class="text-center titulo-cadastro mb-4">Informe os seus dados para um melhor uso do site</h5>
-                        <form id="" class="p-4" action="" method="post">
+                        <form class="p-4" action="controle_perfil_usuario.php" method="post">
                                 <div class="row justify-content-center">
                                     <div class="col-md-3">
                                         <div>
@@ -16,31 +16,31 @@ require_once "header_usuario.php";
                                     </div>
                                     <div class="col-md-4">
                                         <label for="inputAddress" class="form-label">Nome</label>
-                                        <input type="text" class="form-control bg-input" id="inputAddress" placeholder="Informe seu nome completo">
+                                        <input type="text" class="form-control bg-input" name="nome" id="inputAddress" placeholder="Informe seu nome completo">
                                     </div>
                                     <div class="col-md-5">
                                         <label for="inputAddress" class="form-label">Email</label>
-                                        <input type="text" class="form-control bg-input" id="inputAddress" placeholder="Onde deseja ser notificado de suas atividades">
+                                        <input type="text" class="form-control bg-input" name="email" id="inputAddress" placeholder="Onde deseja ser notificado de suas atividades">
                                     </div>
                                 </div>
                                 <div class="row mt-5">
                                     <div class="col-md-4">
                                         <label for="inputState" class="form-label">Estado</label>
-                                        <select id="inputState" class="form-select bg-input">
+                                        <select id="inputState" class="form-select bg-input" name="estado">
                                             <option value="">Escolha o estado...</option>
                                             <!-- Opções serão preenchidas dinamicamente -->
                                         </select>
                                     </div>
                                     <div class="col-md-4">
                                         <label for="inputCity" class="form-label">Cidade</label>
-                                        <select id="inputCity" class="form-select bg-input">
+                                        <select id="inputCity" class="form-select bg-input" name="cidade">
                                             <option value="">Escolha a cidade...</option>
                                             <!-- Opções serão preenchidas dinamicamente -->
                                         </select>
                                     </div>
                                     <div class="col-md-4">
                                         <label for="inputZip" class="form-label">CEP</label>
-                                        <input type="text" class="form-control bg-input" id="inputZip" placeholder="xxxxx-xxx">
+                                        <input type="text" class="form-control bg-input" name="cep" id="inputZip" placeholder="xxxxxxxx">
                                     </div>
                                 </div>
 
